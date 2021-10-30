@@ -57,15 +57,17 @@ img {
   color: #fff;
 }
 
-.header {
-  background-color: #0A3641;
-  padding: 35px;
-  margin:0px;
-}
-
 header {
   background-color: #fff;
 }
+
+.premierclub {
+  text-align: center;
+  background-color: #0A3641;
+  padding: 10px;
+  margin: 0px;
+}
+
 
 .fas {
   padding: 5px;
