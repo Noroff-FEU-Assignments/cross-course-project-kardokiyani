@@ -12,32 +12,73 @@ body {
 
 .welcome {
   text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+* {
+  box-sizing:border-box
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .index-page-img>img {
-  width: 100px;
-  width: 20%;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.index-page-img {
+  flex-direction: column;
 }
 
 img {
-  width: 30%;
+  width: 100%;
   padding: 5px;
+  display: block;
   flex-direction: column;
 }
 
 .home_logo {
   width: 100px;
-  height: 100px;
-}
-
-header {
-  background-color: #fff;
-  padding: 20px;
+  height: 80px;
+  padding: 5px;
+  color: #fff;
 }
 
 .header {
   background-color: #0A3641;
+  padding: 35px;
+  margin:0px;
 }
+
+header {
+  background-color: #fff;
+}
+
+.fas {
+  padding: 5px;
+  color: #0A3641;
+}
+
+.navbar {
+ display: flex;
+ justify-content: flex-end;
+ padding-top: 10px;
+ padding-left: 10px;
+}
+
 
 h1, h2, h3{
   font-family: 'Open Sans', Verdana, sans-serif;
@@ -72,7 +113,7 @@ nav ul {
 footer {
   background-color: #0A3641;
   color: #fff;
-  padding: 15px;
+  padding: 25px;
   text-align: center;
 }
 
