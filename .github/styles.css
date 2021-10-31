@@ -121,7 +121,7 @@ img {
 h1 {
   text-align:center;
   text-decoration: underline;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .text {
@@ -170,5 +170,19 @@ footer::before, footer::after {
 }
 
 @media only screen and (max-width: 950px) {
+  .row img {
+    max-width: 300px;
+  }
+}
 
+@media only screen and (max-width: 750px) {
+  .row img {
+    max-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .row {
+    flex-direction: column;
+  }
 }
