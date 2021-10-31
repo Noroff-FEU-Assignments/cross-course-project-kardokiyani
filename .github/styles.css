@@ -27,16 +27,48 @@ body {
   padding-top: 20px;
 }
 
-.button {
-padding: 10px;
-padding-right: 100px;
-text-align: center;
-height: 10px;
-margin: 5px;
-background-color: #0A3641;
-color:#fff;
+
+.buttons {
+  margin: 50px 0;
+  display:flex;
+  justify-content: center;
+  gap: 20px;
 }
 
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: #0A3641;
+  padding: 10px;
+  width: 150px;
+  border: 1px solid white;
+}
+
+.button-size {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.column {
+  position: relative;
+  text-align: center;
+}
+
+.button-img {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  border: 1px solid black;
+  padding: 0 20px;
+}
+
+.button-img a {
+  text-transform: uppercase;
+}
 
 img {
   width: 100%;
@@ -66,7 +98,10 @@ img {
   text-align: center;
   background-color: #0A3641;
   padding: 10px;
-  margin: 0px;
+}
+
+.premierclub p {
+  text-transform: uppercase;
 }
 
 
@@ -83,11 +118,16 @@ img {
 }
 
 
-h1, h2, h3{
-  font-family: 'Open Sans', Verdana, sans-serif;
-  color:#fff;
+h1 {
   text-align:center;
   text-decoration: underline;
+  font-size: 2.5rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  max-width: px;
+  margin: 0 auto;
 }
 
 nav li {
@@ -129,4 +169,6 @@ footer::before, footer::after {
   font-weight: bold;
 }
 
-/* Home page */ 
+@media only screen and (max-width: 950px) {
+
+}
