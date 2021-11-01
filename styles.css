@@ -6,7 +6,6 @@ body {
   grid-template-rows: auto 1fr auto;
   font-family: 'Open Sans', Verdana, sans-serif;
   color: #fff;
-  text-align: left;
   margin: 0px;
 }
 
@@ -17,37 +16,65 @@ body {
 }
 
 * {
-  box-sizing:border-box
+  box-sizing: border-box
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+
+.buttons {
+  margin: 50px 0;
+  display:flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: #0A3641;
+  padding: 10px;
+  width: 150px;
+  border: 1px solid white;
+}
+
+.button-size {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.index-page-img>img {
+  position: relative;
   text-align: center;
-  width: 100%;
-  display: inline-block;
-  flex-wrap: wrap;
 }
 
-.index-page-img {
-  flex-direction: column;
+.button-img {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  border: 1px solid black;
+  padding: 0 20px;
+}
+
+.button-img a {
+  text-transform: uppercase;
 }
 
 img {
   width: 100%;
-  padding: 5px;
-  display: block;
-  flex-direction: column;
+  max-width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .home_logo {
@@ -57,15 +84,26 @@ img {
   color: #fff;
 }
 
-.header {
-  background-color: #0A3641;
-  padding: 35px;
-  margin:0px;
+.logo_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background: white;
+  color: black;
 }
 
-header {
-  background-color: #fff;
+
+.premierclub {
+  text-align: center;
+  background-color: #0A3641;
+  padding: 10px;
 }
+
+.premierclub p {
+  text-transform: uppercase;
+}
+
 
 .fas {
   padding: 5px;
@@ -74,17 +112,22 @@ header {
 
 .navbar {
  display: flex;
- justify-content: flex-end;
+ justify-content: flex-start;
  padding-top: 10px;
  padding-left: 10px;
 }
 
 
-h1, h2, h3{
-  font-family: 'Open Sans', Verdana, sans-serif;
-  color:#fff;
+h1 {
   text-align:center;
   text-decoration: underline;
+  font-size: 2rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  max-width: px;
+  margin: 0 auto;
 }
 
 nav li {
@@ -101,6 +144,7 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
 nav ul {
   padding: 15px
 }
@@ -109,6 +153,7 @@ nav ul {
   background-color: #0A3641;
   color:#fff
 }
+
 
 footer {
   background-color: #0A3641;
@@ -124,4 +169,20 @@ footer::before, footer::after {
   font-weight: bold;
 }
 
-/* Home page */ 
+@media only screen and (max-width: 950px) {
+  .row img {
+    max-width: 300px; 
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .row img {
+    max-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .row {
+    flex-direction: column;
+  }
+}
