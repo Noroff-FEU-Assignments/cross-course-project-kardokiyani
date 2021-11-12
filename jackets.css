@@ -1,0 +1,8 @@
+@import "styles.css";
+
+.jackets-position {
+  display: flex;
+  gap: 50px;
+  width: 270px;
+  margin: 20px;
+}
