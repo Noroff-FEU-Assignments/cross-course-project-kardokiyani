@@ -22,19 +22,19 @@
   justify-content: space-between;
 }
 
-.green-jacket {
+.blue-jacket {
   padding-left: 20px;
 }
 
-.grey-jacket {
+.turquoise-jacket {
   padding-right: 10px;
 }
 
-.black-jacket {
+.light-pink-jacket {
   padding-right: 5px;
 }
 
-.dark-grey-jacket {
+.light-grey-jacket {
   padding-right: 80px;
 }
 
@@ -43,7 +43,7 @@
   justify-content: space-between;
 }
 
-.fifty-price {
+.sixty-price {
   padding-left: 20px;
 }
 
