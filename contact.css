@@ -1,0 +1,89 @@
+@import "styles.css";
+
+.welcome-contact {
+  text-align: left;
+  padding: 0px;
+  margin: 100px;
+} 
+
+.h1-contact {
+  font-size: 2rem;
+  text-align: left;
+  text-decoration: none;
+  padding-left: 260px;
+}
+
+.h2-email-us {
+  padding-left: 260px;
+  font-size: 1,5rem;
+}
+
+.form-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-areas: 
+  "contact-left   contact-right"
+  "contact-bottom contact-bottom";
+  gap: 2rem;
+}
+
+.form-wrapper input {
+padding: 10px;
+}
+
+.contact-form-left,
+.contact-form-right,
+.contact-form-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form-left {
+  grid-area: contact-left;
+}
+.contact-form-right {
+  grid-area: contact-right;
+}
+.contact-form-bottom {
+  grid-area: contact-bottom;
+  max-width: 70%;
+  margin: 0 auto;
+}
+.contact-form-bottom textarea {
+  width: 20rem;
+  height: 150px;
+}
+
+.cta-cta-large {
+  color: #fff;
+  background-color: #0A3641;
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
+  border: 1px solid white;
+}
+
+.first-and-last-name {
+  padding-left: 260px;
+}
+
+.email-part {
+  padding-left: 600px;
+}
+
+.button-contact {
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+  padding-left: 260px;
+  margin-top: 30px;
+}
+
+.button {
+  text-align: center;
+}
+
+.text-contact {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 260px;
+}

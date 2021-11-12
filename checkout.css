@@ -1,0 +1,146 @@
+@import "styles.css";
+
+.welcome-product {
+  text-align: left;
+  padding: 0px;
+  margin: 100px;
+}
+
+.button-product {
+  display: flex;
+  text-align: center;
+  gap: 70px;
+}
+
+a.button-special {
+  position: relative;
+
+}
+
+a.button-special::before {
+  content: "<";
+  font-size: 2.5rem;
+  position: absolute;
+  left: -40px;
+  top: -7px;
+}
+
+a.button-special::after {
+  content: "/";
+  position: absolute;
+  font-size: 2.5rem;
+  right: -40px;
+  top: -7px;
+}
+
+.h1-product {
+  font-size: 2rem;
+  text-align: left;
+  text-decoration: none;
+  padding-left: 260px;
+}
+
+.product-grey-jacket img {
+display: flex;
+width: 45%;
+}
+
+.product-grey-jacket {
+  display: flex;
+}
+
+.jacket-info {
+  margin-left: 10px;
+}
+
+.product-text {
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.jacket-info {
+  margin-bottom: 70px;
+}
+
+.button-checkout {
+  display: flex;
+  text-align: center;
+  gap: 70px;
+}
+
+a.button-amazing {
+  position: relative;
+}
+
+a.button-amazing::before {
+  content: "<";
+  font-size: 2.5rem;
+  position: absolute;
+  left: -40px;
+  top: -7px;
+}
+
+a.button-amazing::after {
+  content: none;
+  position: absolute;
+  font-size: 2.5rem;
+  right: -40px;
+  top: -7px;
+}
+
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 750px;
+}
+
+.tax {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 750px;
+}
+
+
+.shipping {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 750px;
+}
+
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 750px;
+  font-size: 1.3rem;
+}
+
+.buy-now-button {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  background-color: #0A3641;
+  padding: 10px;
+  margin: 30px;
+  border: 1px solid white;
+  margin-left: 810px;
+  width: 20%;
+  justify-content: center;
+}
+
+.garbage-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: #fff;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.fa-trash {
+  color: #fff;
+}

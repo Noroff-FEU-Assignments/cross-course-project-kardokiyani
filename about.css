@@ -1,0 +1,53 @@
+@import "styles.css";
+
+.welcome-about {
+  text-align: center;
+  padding: 0px;
+  margin: 100px;
+}
+
+.h1-about {
+  font-size: 2rem;
+  text-align: left;
+  text-decoration: none;
+}
+
+.button-about {
+display: flex;
+flex-direction: column;
+align-items: start;
+}
+
+.button-about div {
+  display: flex;
+  align-items: center;
+}
+
+.fa-map-marker-alt {
+  color: #fff;
+}
+
+.fa-search {
+  color: #0A3641;
+  padding: 0.9rem;
+  background-color: #fff;
+}
+
+.button {
+  width: auto; 
+}
+
+.text-about {
+  color: #000000;
+}
+
+.text-about-center {
+  padding: 30px;
+  color: #000000;
+}
+
+.color-text {
+  background-color:#B2B2B2 ;
+  padding: 50px;
+  
+}

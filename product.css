@@ -1,0 +1,105 @@
+@import "styles.css";
+
+.welcome-product {
+  text-align: left;
+  padding: 0px;
+  margin: 100px;
+}
+
+.button-product {
+  display: flex;
+  text-align: center;
+  gap: 70px;
+}
+
+a.button-special {
+  position: relative;
+
+}
+
+a.button-special::before {
+  content: "<";
+  font-size: 2.5rem;
+  position: absolute;
+  left: -40px;
+  top: -7px;
+}
+
+a.button-special::after {
+  content: "/";
+  position: absolute;
+  font-size: 2.5rem;
+  right: -40px;
+  top: -7px;
+}
+
+.h1-product {
+  font-size: 2rem;
+  text-align: left;
+  text-decoration: none;
+  padding-left: 260px;
+}
+
+.product-grey-jacket img {
+display: flex;
+width: 45%;
+}
+
+.product-grey-jacket {
+  display: flex;
+}
+
+.jacket-info {
+  margin-left: 10px;
+}
+
+.product-text {
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.jacket-info {
+  margin-bottom: 70px;
+}
+
+.cta-cta-large-two {
+  color: #fff;
+  background-color: #0A3641;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  width: 150px;
+  border: 1px solid white;
+  margin-left: 10px;
+}
+
+.cta-cta-large-three {
+  color: #fff;
+  background-color: #9B9B9B;
+  text-decoration: none;
+  padding: 10px;
+  width: 178px;
+  border: 1px solid white;
+  margin-left: 10px;
+}
+
+.fa-map-marker-alt {
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.button-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
