@@ -80,7 +80,7 @@ a.button-amazing {
   padding: 10px;
   margin: 30px;
   border: 1px solid white;
-  margin-left: 810px;
+  margin-left: 910px;
   width: 20%;
   justify-content: center;
   text-decoration: none;
@@ -114,5 +114,53 @@ a.button-amazing {
 .h4-order-track {
   display: flex;
   justify-content: end;
-  padding-right: 260px;
+  padding-right: 150px;
+}
+
+.shipping-info-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 100px;
+  background-color: #B2B2B2;
+  color: #000000;
+}
+
+.shipping-info-2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 100px;
+  background-color: #B2B2B2;
+  color: #000000;
+}
+
+.h2-shipping-info {
+  padding-right: 20px;
+}
+
+.kardo-info {
+  padding-right: 70px;
+}
+
+.address-info {
+  padding-left: 40px;
+}
+
+.email-info {
+  padding-right: 2px;
+}
+
+.tel-info {
+  padding-right: 70px;
+}
+
+.h2-shipping-info-2 {
+  padding-right: 15px;
+}
+
+.shipping-method {
+  padding-right: 30px;
 }
