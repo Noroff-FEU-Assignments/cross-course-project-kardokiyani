@@ -72,53 +72,6 @@ a.button-amazing {
   position: relative;
 }
 
-a.button-amazing::before {
-  content: "<";
-  font-size: 2.5rem;
-  position: absolute;
-  left: -40px;
-  top: -7px;
-}
-
-a.button-amazing::after {
-  content: none;
-  position: absolute;
-  font-size: 2.5rem;
-  right: -40px;
-  top: -7px;
-}
-
-.subtotal {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  padding-left: 750px;
-}
-
-.tax {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  padding-left: 750px;
-}
-
-
-.shipping {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  padding-left: 750px;
-}
-
-
-.total {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  padding-left: 750px;
-  font-size: 1.3rem;
-}
-
 .buy-now-button {
   display: flex;
   flex-direction: row;
@@ -133,15 +86,33 @@ a.button-amazing::after {
   text-decoration: none;
 }
 
-.garbage-item {
+.fa-check-circle {
+  color: #26B126;
+  font-size: 200px;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  color: #fff;
-  align-items: center;
-  margin-bottom: 0;
+  justify-content:flex-start;
+  padding-left: 340px;
 }
 
-.fa-trash {
-  color: #fff;
+.h2-success {
+  display: flex;
+  justify-content: start;
+  padding-left: 150px;
+  text-decoration: underline;
+}
+
+.h3-info {
+  display: flex;
+  justify-content: start;
+  padding-left: 300px;
+}
+
+.h3-info-more {
+  padding-left: 125px;
+}
+
+.h4-order-track {
+  display: flex;
+  justify-content: end;
+  padding-right: 260px;
 }
