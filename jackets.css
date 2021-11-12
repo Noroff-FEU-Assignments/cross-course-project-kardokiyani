@@ -6,3 +6,55 @@
   width: 270px;
   margin: 20px;
 }
+
+.button-jackets {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: #fff;
+  align-items: center;
+  margin-bottom: 0;
+  margin: 25px;
+}
+
+.name-jackets {
+  display: flex;
+  justify-content: space-between;
+}
+
+.green-jacket {
+  padding-left: 20px;
+}
+
+.grey-jacket {
+  padding-right: 10px;
+}
+
+.black-jacket {
+  padding-right: 5px;
+}
+
+.dark-grey-jacket {
+  padding-right: 80px;
+}
+
+.price-jackets {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fifty-price {
+  padding-left: 20px;
+}
+
+.fortyfive-price {
+padding-left: 3px;
+}
+
+.forty-price {
+padding-right: 3px;
+}
+
+.forty-price2 {
+  padding-right: 255px;
+}
