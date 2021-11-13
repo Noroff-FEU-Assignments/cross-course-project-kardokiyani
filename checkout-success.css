@@ -12,27 +12,6 @@
   gap: 70px;
 }
 
-a.button-special {
-  position: relative;
-
-}
-
-a.button-special::before {
-  content: "<";
-  font-size: 2.5rem;
-  position: absolute;
-  left: -40px;
-  top: -7px;
-}
-
-a.button-special::after {
-  content: "/";
-  position: absolute;
-  font-size: 2.5rem;
-  right: -40px;
-  top: -7px;
-}
-
 .h1-product {
   font-size: 2rem;
   text-align: left;

@@ -37,17 +37,21 @@ padding: 10px;
   display: flex;
   flex-direction: column;
 }
+
 .contact-form-left {
   grid-area: contact-left;
 }
+
 .contact-form-right {
   grid-area: contact-right;
 }
+
 .contact-form-bottom {
   grid-area: contact-bottom;
   max-width: 70%;
   margin: 0 auto;
 }
+
 .contact-form-bottom textarea {
   width: 20rem;
   height: 150px;
@@ -64,10 +68,6 @@ padding: 10px;
 
 .first-and-last-name {
   padding-left: 260px;
-}
-
-.email-part {
-  padding-left: 600px;
 }
 
 .button-contact {

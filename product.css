@@ -14,7 +14,6 @@
 
 a.button-special {
   position: relative;
-
 }
 
 a.button-special::before {
@@ -37,7 +36,7 @@ a.button-special::after {
   font-size: 2rem;
   text-align: left;
   text-decoration: none;
-  padding-left: 260px;
+  padding-left: 260px; 
 }
 
 .product-grey-jacket img {
