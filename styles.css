@@ -27,6 +27,14 @@ body {
   padding-top: 20px;
 }
 
+.mens-jacket-link {
+  text-decoration: none;
+}
+
+.womans-jacket-link {
+  text-decoration: none;
+}
+
 
 .buttons {
   margin: 50px 0;
