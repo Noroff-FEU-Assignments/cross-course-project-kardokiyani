@@ -7,6 +7,8 @@ body {
   font-family: 'Open Sans', Verdana, sans-serif;
   color: #fff;
   margin: 0px;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 .welcome {
