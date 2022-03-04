@@ -4,7 +4,7 @@
   text-align: left;
   padding: 0px;
   margin: 100px;
-} 
+}
 
 .h1-contact {
   font-size: 2rem;
@@ -15,20 +15,20 @@
 
 .h2-email-us {
   padding-left: 260px;
-  font-size: 1,5rem;
+  font-size: 1, 5rem;
 }
 
 .form-wrapper {
   width: 100%;
   display: grid;
-  grid-template-areas: 
-  "contact-left   contact-right"
-  "contact-bottom contact-bottom";
+  grid-template-areas:
+    "contact-left   contact-right"
+    "contact-bottom contact-bottom";
   gap: 2rem;
 }
 
 .form-wrapper input {
-padding: 10px;
+  padding: 10px;
 }
 
 .contact-form-left,
@@ -59,7 +59,7 @@ padding: 10px;
 
 .cta-cta-large {
   color: #fff;
-  background-color: #0A3641;
+  background-color: #0a3641;
   text-align: center;
   padding: 10px;
   margin: 30px;
@@ -73,7 +73,7 @@ padding: 10px;
 .button-contact {
   display: flex;
   flex-direction: column;
-  align-items:left;
+  align-items: left;
   padding-left: 260px;
   margin-top: 30px;
 }

@@ -20,8 +20,8 @@
 }
 
 .product-grey-jacket img {
-display: flex;
-width: 45%;
+  display: flex;
+  width: 45%;
 }
 
 .product-grey-jacket {
@@ -55,7 +55,7 @@ a.button-amazing {
   display: flex;
   flex-direction: row;
   color: #fff;
-  background-color: #0A3641;
+  background-color: #0a3641;
   padding: 10px;
   margin: 30px;
   border: 1px solid white;
@@ -66,10 +66,10 @@ a.button-amazing {
 }
 
 .fa-check-circle {
-  color: #26B126;
+  color: #26b126;
   font-size: 200px;
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   padding-left: 340px;
 }
 

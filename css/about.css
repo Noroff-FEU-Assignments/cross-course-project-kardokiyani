@@ -13,9 +13,9 @@
 }
 
 .button-about {
-display: flex;
-flex-direction: column;
-align-items: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 .button-about div {
@@ -28,13 +28,13 @@ align-items: start;
 }
 
 .fa-search {
-  color: #0A3641;
+  color: #0a3641;
   padding: 0.9rem;
   background-color: #fff;
 }
 
 .button {
-  width: auto; 
+  width: auto;
 }
 
 .text-about {
@@ -47,6 +47,6 @@ align-items: start;
 }
 
 .color-text {
-  background-color:#B2B2B2 ;
+  background-color: #b2b2b2;
   padding: 50px;
 }

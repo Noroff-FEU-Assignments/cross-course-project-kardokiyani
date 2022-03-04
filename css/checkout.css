@@ -14,7 +14,6 @@
 
 a.button-special {
   position: relative;
-
 }
 
 a.button-special::before {
@@ -41,8 +40,8 @@ a.button-special::after {
 }
 
 .product-grey-jacket img {
-display: flex;
-width: 45%;
+  display: flex;
+  width: 45%;
 }
 
 .product-grey-jacket {
@@ -81,14 +80,12 @@ a.button-amazing {
   padding-left: 750px;
 }
 
-
 .shipping {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   padding-left: 750px;
 }
-
 
 .total {
   display: flex;
@@ -102,7 +99,7 @@ a.button-amazing {
   display: flex;
   flex-direction: row;
   color: #fff;
-  background-color: #0A3641;
+  background-color: #0a3641;
   padding: 10px;
   margin: 30px;
   border: 1px solid white;
@@ -124,4 +121,3 @@ a.button-amazing {
 .fa-trash {
   color: #fff;
 }
-

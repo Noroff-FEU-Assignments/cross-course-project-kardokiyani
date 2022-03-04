@@ -23,19 +23,19 @@
   justify-content: space-between;
 }
 
-.blue-jacket {
+.green-jacket {
   padding-left: 20px;
 }
 
-.turquoise-jacket {
-  padding-left: 35px;
+.grey-jacket {
+  padding-right: 10px;
 }
 
-.light-pink-jacket {
+.black-jacket {
   padding-right: 5px;
 }
 
-.light-grey-jacket {
+.dark-grey-jacket {
   padding-right: 80px;
 }
 
@@ -44,16 +44,16 @@
   justify-content: space-between;
 }
 
-.sixty-price {
+.fifty-price {
   padding-left: 20px;
 }
 
 .fortyfive-price {
-padding-right: 3px;
+  padding-left: 3px;
 }
 
 .forty-price {
-padding-right: 3px;
+  padding-right: 3px;
 }
 
 .forty-price2 {

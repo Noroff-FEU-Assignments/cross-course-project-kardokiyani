@@ -23,19 +23,19 @@
   justify-content: space-between;
 }
 
-.green-jacket {
+.blue-jacket {
   padding-left: 20px;
 }
 
-.grey-jacket {
-  padding-right: 10px;
+.turquoise-jacket {
+  padding-left: 35px;
 }
 
-.black-jacket {
+.light-pink-jacket {
   padding-right: 5px;
 }
 
-.dark-grey-jacket {
+.light-grey-jacket {
   padding-right: 80px;
 }
 
@@ -44,16 +44,16 @@
   justify-content: space-between;
 }
 
-.fifty-price {
+.sixty-price {
   padding-left: 20px;
 }
 
 .fortyfive-price {
-padding-left: 3px;
+  padding-right: 3px;
 }
 
 .forty-price {
-padding-right: 3px;
+  padding-right: 3px;
 }
 
 .forty-price2 {
