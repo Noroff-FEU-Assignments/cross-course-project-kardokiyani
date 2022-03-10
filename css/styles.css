@@ -114,6 +114,7 @@ img {
 .fas {
   padding: 5px;
   color: #0a3641;
+  cursor: pointer;
 }
 
 .navbar {

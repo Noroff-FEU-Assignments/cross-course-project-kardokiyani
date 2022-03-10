@@ -39,11 +39,13 @@
 
 .text-about {
   color: #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .text-about-center {
   padding: 30px;
   color: #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .color-text {
