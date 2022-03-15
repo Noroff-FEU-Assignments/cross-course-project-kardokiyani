@@ -72,9 +72,8 @@
   color: #fff;
   background-color: #0a3641;
   text-align: center;
-  padding: 10px;
-  margin: 30px;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 .first-and-last-name {
