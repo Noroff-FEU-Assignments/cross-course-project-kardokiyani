@@ -165,15 +165,39 @@ footer {
   background-color: #0a3641;
   color: #fff;
   padding: 25px;
-  text-align: center;
 }
 
-footer::before,
-footer::after {
-  content: "/";
+.fa-facebook-f {
+  cursor: pointer;
   color: #fff;
-  font-size: 15px;
-  font-weight: bold;
+}
+
+.fa-instagram {
+  cursor: pointer;
+  color: #fff;
+}
+
+.fa-tiktok {
+  cursor: pointer;
+  color: #fff;
+}
+
+.socials-links {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  font-size: 25px;
+}
+
+.copyright-position {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.copyright {
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 950px) {
