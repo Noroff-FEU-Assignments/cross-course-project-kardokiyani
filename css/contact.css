@@ -60,18 +60,11 @@
   margin-bottom: 20px;
 }
 
-.email-content {
-  margin-top: 10px;
-}
-
-.order-number-content {
-  margin-top: 10px;
-}
-
 .cta-cta-large {
   color: #fff;
   background-color: #0a3641;
   text-align: center;
+  font-size: 1rem;
   border: 1px solid white;
   cursor: pointer;
 }
@@ -103,4 +96,29 @@
   color: red;
   font-size: 0.9rem;
   margin-top: 2px;
+}
+
+.nameDisplay {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.emailDisplay {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.phoneDisplay {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.orderDisplay {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.messageDisplay {
+  margin-top: 10px;
+  font-size: 1.1rem;
 }

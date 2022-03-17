@@ -65,23 +65,23 @@
     <form id="post">
       <div class="form-wrapper">
             <div class="contact-form-left">
-              <label for="name">First and Last Name</label>
+              <label for="name" class="nameDisplay">First and Last Name</label>
               <div class="form-error" id="nameError">Please enter your first and last name</div>
               <input type="text" id="usersName" name="name" class="forminput">
-              <label for="email" class="email-content">Email</label>
+              <label for="email" class="emailDisplay">Email</label>
               <div class="form-error" id="emailError">Please enter your email address</div>
               <input type="email" id="email" name="email" class="forminput">
             </div>
             <div class="contact-form-right">
-              <label for="phone">Phone (optional)</label>
+              <label for="phone" class="phoneDisplay">Phone (8 digits)</label>
               <div class="form-error" id="phoneError">Please enter your phone number</div>
               <input type="tel" id="phone" name="phone" class="forminput">
-              <label for="order" class="order-number-content">Order number</label>
+              <label for="order" class="orderDisplay">Order number (11 digits)</label>
               <div class="form-error" id="orderError">Please enter your order number</div>
               <input type="order" id="order" name="order" class="forminput">
             </div>
             <div class="contact-form-bottom">
-              <label for="message">Message</label>
+              <label for="message" class="messageDisplay">Message</label>
               <div class="form-error" id="messageError">Feel free to message us</div>
               <textarea id="message" name="message" class="form__input"></textarea>
               <input type="submit" value="SUBMIT" class="cta-cta-large" />
