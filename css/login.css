@@ -1,0 +1,32 @@
+@import "styles.css";
+
+.h1-login {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.h2-login {
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+input {
+  width: 30%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 10px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.login-input {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.login-text {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
