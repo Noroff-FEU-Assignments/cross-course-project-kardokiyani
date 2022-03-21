@@ -101,6 +101,10 @@ img {
   color: black;
 }
 
+.menu {
+  font-size: 20px;
+}
+
 .premierclub {
   text-align: center;
   background-color: #0a3641;
