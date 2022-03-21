@@ -30,3 +30,22 @@ input {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.login-button {
+  background-color: #0a3641;
+  color: #fff;
+  width: 300px;
+  padding: 1rem;
+  margin: 10px;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+.login-buttons {
+  display: flex;
+  justify-content: center;
+}
