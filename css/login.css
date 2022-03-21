@@ -29,6 +29,7 @@ input {
 .login-text {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 50px;
 }
 
 .login-button {
