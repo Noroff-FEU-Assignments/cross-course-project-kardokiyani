@@ -2,8 +2,8 @@
 
 .jackets-position {
   display: flex;
+  flex-direction: row;
   gap: 50px;
-  width: 270px;
   margin: 20px;
 }
 
