@@ -23,39 +23,7 @@
   justify-content: space-between;
 }
 
-.blue-jacket {
-  padding-left: 20px;
-}
-
-.turquoise-jacket {
-  padding-left: 35px;
-}
-
-.light-pink-jacket {
-  padding-right: 5px;
-}
-
-.light-grey-jacket {
-  padding-right: 80px;
-}
-
 .price-jackets {
   display: flex;
   justify-content: space-between;
-}
-
-.sixty-price {
-  padding-left: 20px;
-}
-
-.fortyfive-price {
-  padding-right: 3px;
-}
-
-.forty-price {
-  padding-right: 3px;
-}
-
-.forty-price2 {
-  padding-right: 255px;
 }
