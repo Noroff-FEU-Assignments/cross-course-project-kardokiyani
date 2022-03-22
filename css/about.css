@@ -25,12 +25,12 @@
 
 .fa-map-marker-alt {
   color: #fff;
+  font-size: 20px;
 }
 
 .fa-search {
   color: #0a3641;
   padding: 0.9rem;
-  background-color: #fff;
 }
 
 .button {
@@ -51,4 +51,11 @@
 .color-text {
   background-color: #b2b2b2;
   padding: 50px;
+}
+
+.about-search-input {
+  padding: 14px;
+  width: 253px;
+  margin: 3px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
