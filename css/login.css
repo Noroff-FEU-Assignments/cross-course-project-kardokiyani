@@ -55,9 +55,8 @@ input {
 
 .form-input-error {
   display: none;
-  color: red;
+  justify-content: center;
+  color: rgb(255, 0, 0);
   font-size: 0.9rem;
   margin-top: 2px;
-  display: flex;
-  justify-content: center;
 }

@@ -11,16 +11,16 @@ const passwordError = document.querySelector("#passwordError");
 function validateForm(event) {
   event.preventDefault();
 
-  if (checkLength(usersMail.value,0) === true) {
+  if (validateEmail(usersMail.value,0) === true) {
     emailError.style.display = "none";
   }else {
-    emailError.style.display = "block";
+    emailError.style.display = "flex";
   }
 
-  if (checkLength(usersPassword.value,0) === true) {
+  if (checkLength(usersPassword.value,9) === true) {
     passwordError.style.display = "none";
   }else {
-    passwordError.style.display = "block";
+    passwordError.style.display = "flex";
   }
 
   console.log("hello");
