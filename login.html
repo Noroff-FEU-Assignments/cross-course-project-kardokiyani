@@ -57,22 +57,26 @@
       </nav>
    </header>
     <main>
+      <form id="login-form">
       <h1 class="h1-login">Log In</h1>
       <h2 class="h2-login">Email</h2>
+      <div class="form-input-error" id="emailError">Please enter your email</div>
       <div class="login-input">
       <input name="email" id="usersMail"/>
     </div>
       <h2 class="h2-login">Password</h2>
+      <div class="form-input-error" id="passwordError">Please enter your password</div>
       <div class="login-input">
       <input type="password" id="usersPassword"/>
     </div>
     <div class="login-buttons">
-    <a href="index.html" class="login-button">Log In</a>
+    <input type="submit" value="Log In"class="login-button"></a>
     <a href="#" class="login-button">Sign Up</a>
   </div>
     <p class="login-text">Sign up now for membership deals and free shipping!</p>
+  </form>
       </main>
-      <script src="js/contact.js"></script> 
+      <script src="js/login.js"></script> 
       <footer>
         <div class="socials-links">
         <div class="copyright-position"><span class="copyright">Copyright &copy;</span></div> 

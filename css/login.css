@@ -44,9 +44,20 @@ input {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .login-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.form-input-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
   display: flex;
   justify-content: center;
 }
