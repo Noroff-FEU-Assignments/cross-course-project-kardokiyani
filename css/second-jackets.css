@@ -18,6 +18,10 @@
   margin: 25px;
 }
 
+.button-special:hover {
+  text-decoration: underline;
+}
+
 .name-jackets {
   display: flex;
   justify-content: space-between;
@@ -46,4 +50,8 @@
 .add-cart-button a {
   text-decoration: none;
   color: #fff;
+}
+
+.add-cart-button:hover {
+  text-decoration: underline;
 }
