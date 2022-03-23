@@ -84,6 +84,11 @@ a.button-special::after {
   width: 178px;
   border: 1px solid white;
   margin-left: 10px;
+  cursor: pointer;
+}
+
+.cta-cta-large-three:hover {
+  text-decoration: underline;
 }
 
 .fa-map-marker-alt {
