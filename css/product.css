@@ -102,3 +102,11 @@ a.button-special::after {
   justify-content: center;
   background: #fff;
 }
+
+.button-special {
+  color: white;
+  background-color: #0a3641;
+  padding: 10px;
+  border: 1px solid white;
+  text-decoration: none;
+}
