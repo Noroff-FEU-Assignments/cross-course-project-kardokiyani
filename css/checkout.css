@@ -108,6 +108,9 @@ a.button-amazing {
   justify-content: center;
   text-decoration: none;
 }
+.buy-now-button:hover {
+  text-decoration: underline;
+}
 
 .garbage-item {
   display: flex;

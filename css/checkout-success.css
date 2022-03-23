@@ -65,6 +65,10 @@ a.button-amazing {
   text-decoration: none;
 }
 
+.buy-now-button:hover {
+  text-decoration: underline;
+}
+
 .fa-check-circle {
   color: #26b126;
   font-size: 200px;

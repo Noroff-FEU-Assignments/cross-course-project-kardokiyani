@@ -72,6 +72,10 @@ a.button-special::after {
   margin-left: 10px;
 }
 
+.cta-cta-large-two:hover {
+  text-decoration: underline;
+}
+
 .cta-cta-large-three {
   color: #fff;
   background-color: #9b9b9b;
