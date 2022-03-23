@@ -5,7 +5,7 @@
     <meta name="description" content="This is a website where you can buy Rainy Days jackets">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src= "https://kit.fontawesome.com/9ee3873b5b.js" crossorigin="anonymous"></script>
-    <link href="css/second-jackets.css" rel="stylesheet">
+    <link href="css/add-to-cart.css" rel="stylesheet">
     <!-- Hotjar Tracking Code for https://condescending-varahamihira-942336.netlify.app/ -->
     <script>
       (function (h, o, t, j, a, r) {
@@ -54,56 +54,54 @@
         </div>
       </nav>
    </header>
-    <main>
-      <section class="welcome-product">
-        <div class="button-jackets">
-          <a href="#" class="button-special">WOMEN`S JACKETS</a>
-          <a href="#" class="button-special">SEE MORE (21)</a>
-        </div>
-      <h1 class="h1-product">Women`s jackets</h1>
-      <div class="jackets-position">
-        <div>
-      <img src="images/NoPath – Kopi (18).jpg" alt="Woman-with-blue-jacket">
-      <div class="name-jackets">
-        <p class="blue-jacket">Rainy Days blue jacket</p>
+   <main class="main-content">
+    <form method="post" class="form">
+      <section class="buy-now-details">
+        <label for="Size" class="size-style">Size</label>
+        <select id="size" class="select-details" name="size">
+          <option value="0">X-Small</option>
+          <option value="1">Small</option>
+          <option value="2">Medium</option>
+          <option value="3">Large</option>
+          <option value="4">X-Large</option>
+          <option value="5">XX-large</option>
+          <option value="6">3X-large</option>
+          <option value="7">4X-large</option>
+        </select>
+        <label for="Color" class="color-style">Color</label>
+        <select id="color" class="select-details" name="color">
+          <option value="0">Green</option>
+          <option value="1">Grey</option>
+          <option value="2">Black</option>
+          <option value="4">Dark grey</option>
+          <option value="5">Blue</option>
+          <option value="6">Turquoise</option>
+          <option value="7">Light pink</option>
+          <option value="8">Light grey</option>
+        </select>
+        <label for="quantity" class="quantity-style">Quantity</label>
+        <select id="quantity" class="select-details" name="quantity">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </section>
+      <div class="basket">
+        <a href="checkout.html">Check out</a>
       </div>
-      <div class="price-jackets">
-        <p class="sixty-price">60$</p>
-      </div>
-      <button class="add-cart-button"><a href="add-to-cart.html">Add to cart </button></a>
-        </div>
-        <div>
-      <img src="images/NoPath – Kopi (19).jpg" alt="Woman-with-turquoise-jacket">
-      <div class="name-jackets">
-        <p class="turquoise-jacket">Rainy Days turquoise jacket</p>
-      </div>
-      <div class="price-jackets">
-        <p class="fortyfive-price">45$</p>
-      </div>
-      <button class="add-cart-button"><a href="add-to-cart.html">Add to cart </button></a>
-        </div>
-        <div>
-      <img src="images/NoPath – Kopi (20).jpg" alt="Woman-with-light-pink-jacket">
-      <div class="name-jackets">
-        <p class="light-pink-jacket">Rainy Days light pink jacket</p>
-      </div>
-      <div class="price-jackets">
-        <p class="forty-price">40$</p>
-      </div>
-      <button class="add-cart-button"><a href="add-to-cart.html">Add to cart </button></a>
-      </div> 
-      <div>
-      <img src="images/NoPath – Kopi (21).jpg" alt="Woman-with-light-grey-jacket">
-      <div class="name-jackets">
-        <p class="light-grey-jacket">Rainy Days light grey jacket</p>  
-    </div>
-    <div class="price-jackets">
-      <p class="forty-price2">40$</p>
-    </div> 
-    <button class="add-cart-button"><a href="add-to-cart.html">Add to cart </button></a>
-  </div>
-  </div>
-      </main> 
+    </form>
+  </main>
+</body>
+</html>
+</html>
       <footer>
         <div class="socials-links">
         <div class="copyright-position"><span class="copyright">Copyright &copy;</span></div> 

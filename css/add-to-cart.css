@@ -1,0 +1,37 @@
+@import "styles.css";
+
+.buy-now-details {
+  padding-top: 55px;
+  margin: 0 auto;
+  width: 500px;
+  display: grid;
+}
+
+.select-details {
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px;
+}
+
+.buy-now-details label{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.basket {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  background-color: rgb(48, 10, 138);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.basket a {
+  text-decoration: none;
+  color: #fff;
+} 

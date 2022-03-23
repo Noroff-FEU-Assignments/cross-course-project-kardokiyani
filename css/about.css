@@ -32,6 +32,10 @@
   color: #0a3641;
 }
 
+.search-location {
+  padding: 14px;
+}
+
 .button {
   width: auto;
 }

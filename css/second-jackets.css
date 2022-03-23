@@ -38,4 +38,12 @@
 
 .add-cart-button {
   cursor: pointer;
+  padding: 10px;
+  background-color: #0a3641;
+  border: none;
+}
+
+.add-cart-button a {
+  text-decoration: none;
+  color: #fff;
 }
