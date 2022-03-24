@@ -109,6 +109,16 @@ img {
 
 .menu {
   font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+}
+
+.material-icons {
+  color: #0a3641;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 7px;
 }
 
 .premierclub {
@@ -122,7 +132,7 @@ img {
 }
 
 .fas {
-  padding: 5px;
+  padding: 7px;
   color: #0a3641;
   cursor: pointer;
 }
