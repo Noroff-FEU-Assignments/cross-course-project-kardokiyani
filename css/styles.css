@@ -190,6 +190,7 @@ footer {
   background-color: #0a3641;
   color: #fff;
   padding: 25px;
+  margin-top: 20px;
 }
 
 .fa-facebook-f {
@@ -218,27 +219,55 @@ footer {
 .copyright-position {
   position: absolute;
   left: 50%;
-  transform: translate(-50%,0);
+  transform: translate(-50%, 0);
 }
 
 .copyright {
   font-size: 25px;
 }
 
-@media only screen and (max-width: 950px) {
-  .row img {
-    max-width: 300px;
+@media only screen and (max-width: 900px) {
+  .row {
+    flex-direction: column;
   }
-}
 
-@media only screen and (max-width: 750px) {
-  .row img {
-    max-width: 200px;
+  .button-img {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border: 1px solid black;
+    padding: 0 20px;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .row {
-    flex-direction: column;
+  .copyright-position {
+    left: 20%;
+  }
+
+  nav ul {
+    padding: 10px;
+    margin: 0;
+  }
+  nav a {
+    padding: 6px;
+  }
+
+  .button-img {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border: 1px solid black;
+    padding: 0 20px;
+  }
+
+  .button-about {
+    align-items: center;
   }
 }
