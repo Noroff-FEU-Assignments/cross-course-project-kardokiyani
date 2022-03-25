@@ -60,3 +60,32 @@ input {
   font-size: 0.9rem;
   margin-top: 2px;
 }
+
+@media only screen and (max-width: 500px) {
+  .login-form {
+    margin: 100px;
+    text-align: center;
+  }
+
+  .h1-login {
+    text-align: center;
+  }
+
+  .login-buttons {
+    display: block;
+  }
+
+  .login-button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .login-form-style {
+    text-align: center;
+  }
+
+  input {
+    width: 350px
+  }
+}
