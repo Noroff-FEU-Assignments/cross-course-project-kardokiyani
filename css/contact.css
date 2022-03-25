@@ -8,13 +8,12 @@
 
 .h1-contact {
   font-size: 2rem;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
-  padding-left: 260px;
 }
 
 .h2-email-us {
-  padding-left: 260px;
+  text-align: center;
   font-size: 1, 5rem;
 }
 
@@ -86,9 +85,8 @@
 }
 
 .text-contact {
-  text-align: left;
+  text-align: center;
   font-size: 20px;
-  padding-left: 260px;
 }
 
 .form-error {
@@ -121,4 +119,46 @@
 .messageDisplay {
   margin-top: 10px;
   font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .welcome-contact {
+    margin: 0;
+  }
+
+  .form-wrapper {
+    display: block;
+    padding: 10px;
+  }
+
+  .contact-form-bottom {
+    align-items: center;
+  }
+
+  .cta-cta-large {
+    width: 320px;
+  }
+
+  .text-contact {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .h1-contact {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .h2-email-us {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .contact-form-left {
+    text-align: center;
+  }
+
+  .contact-form-right {
+    text-align: center;
+  }
 }
