@@ -119,3 +119,48 @@ a.button-special::after {
   border: 1px solid white;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 500px) {
+  .welcome-product {
+    margin: 0;
+  }
+
+  .product-grey-jacket {
+    display: block;
+  }
+
+  .product-grey-jacket img {
+    width: 90%;
+    padding-left: 35px;
+  }
+
+  .jacket-info {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 19px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .star-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-product {
+    margin: 50px;
+  }
+
+  .button-special {
+    padding: 0;
+  }
+
+  .grey-button-style {
+    display: flex;
+    justify-content: center;
+  }
+}
