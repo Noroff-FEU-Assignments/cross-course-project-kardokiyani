@@ -124,3 +124,62 @@ a.button-amazing {
 .fa-trash {
   color: #fff;
 }
+
+@media only screen and (max-width: 500px) {
+  .welcome-product{
+    margin: 0;
+  }
+
+  .button-checkout {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .h1-product {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .product-grey-jacket {
+    display: block;
+  }
+
+  .product-grey-jacket img {
+    width: 90%;
+    padding-left: 35px;
+  }
+
+  .jacket-info {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    font-size: 17px;
+  }
+
+  .subtotal {
+    padding-left: 0;
+    padding: 10px;
+  }
+
+  .tax {
+    padding-left: 0;
+    padding: 10px;
+  }
+
+  .shipping {
+    padding-left: 0;
+    padding: 10px;
+  }
+
+  .total {
+    padding-left: 0;
+    padding: 10px;
+  }
+
+  .buy-now-button {
+    margin: auto;
+    width: 330px;
+  }
+}
