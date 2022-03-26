@@ -126,3 +126,21 @@ a.button-amazing {
   text-decoration: underline;
   font-size: 25px;
 }
+
+@media only screen and (max-width: 500px) {
+  .h2-success {
+    text-align: center;
+  }
+
+  .h3-info-more {
+    text-align: center;
+  }
+
+  .address-info {
+    text-align: center;
+  }
+
+  .buy-now-button {
+    width: 60%;
+  }
+}

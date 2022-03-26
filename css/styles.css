@@ -2,11 +2,11 @@ body {
   background: linear-gradient(#3e3030, #36baad);
   background-repeat: no-repeat;
   min-height: 100vh;
-  display: grid;
   grid-template-rows: auto 1fr auto;
   font-family: "Open Sans", Verdana, sans-serif;
   color: #fff;
   margin: 0px;
+  padding:0px;
   max-width: 100vw;
   overflow-x: hidden;
 }

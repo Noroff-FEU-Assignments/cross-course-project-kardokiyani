@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   color: #963e7b;
-  margin: 50px;
 }
 
 .card {
@@ -109,7 +108,7 @@ p {
 @media only screen and (max-width: 1000px) {
   .card {
     flex-direction: column;
-    width: auto;
+    width: 100%;
   }
 
   .leftside {
@@ -125,5 +124,16 @@ p {
     border-bottom-left-radius: 1.5rem;
     padding: 0.5rem 3rem 3rem 2rem;
     border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .mainscreen {
+    margin: 0;
+    padding: 10px;
+  }
+
+  body {
+    background: linear-gradient(#3e3030, #36baad);
   }
 }
