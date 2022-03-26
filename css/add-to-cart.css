@@ -35,8 +35,14 @@
 .basket a {
   text-decoration: none;
   color: #fff;
-} 
+}
 
 @media only screen and (max-width: 500px) {
-  
+  .buy-now-details {
+    width: 350px;
+  }
+
+  .basket {
+    width: 330px;
+  }
 }
