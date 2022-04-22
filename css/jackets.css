@@ -56,6 +56,14 @@
   text-decoration: underline;
 }
 
+.apiContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  margin: 10px;
+  gap: 10px;
+}
+
 @media only screen and (max-width: 500px) {
   .jackets-position {
     display: block;

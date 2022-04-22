@@ -120,6 +120,18 @@ a.button-special::after {
   text-decoration: none;
 }
 
+.productContainer {
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.productButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 500px) {
   .welcome-product {
     margin: 0;
