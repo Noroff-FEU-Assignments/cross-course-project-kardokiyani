@@ -22,6 +22,10 @@ This is the teck stack that I have ued to make this site:
 - [Hotjar](https://www.hotjar.com/)
 - [Netlify](https://www.netlify.com/)
 
+## Designed with
+
+- [Adobe XD](https://www.adobe.com/no/products/xd.html)
+
 ## Getting Started
 
 ### Installing
