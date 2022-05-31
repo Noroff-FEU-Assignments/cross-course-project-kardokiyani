@@ -1,6 +1,6 @@
 # RainyDays, Cross Course Project
 
-![image](GitHubCloning/cross-course-project-kardokiyani/homepage-picture-cross-course-project)
+![image](cross-course-project-kardokiyani/homepage-picture-cross-course-project)
 
 A simple overview of the use/purpose of the project.
 
