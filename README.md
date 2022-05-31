@@ -56,9 +56,9 @@ Here you can detail any information you want to provide regarding contributing t
 
 This is my social links if you want or need to contact me:
 
-[My Instagram page](https://www.instagram.com/kardojr929/)
+[My Instagram page](https://www.instagram.com/)
 
-[My Facebook page](https://www.facebook.com/kardo.kiyani.1998/)
+[My Facebook page](https://www.facebook.com/)
 
 ## License
 
