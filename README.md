@@ -17,7 +17,7 @@ This project is about a site which is called Rainy Days, the point of it was to 
 
 ## Built With
 
-This is the teck stack that I have ued to make this site:
+This is the teck stack that I have used to make this site:
 
 - [Html]()
 - [CSS]()
