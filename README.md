@@ -13,7 +13,7 @@ This project is about a site which is called Rainy Days, the point of it was to 
 - Adobe XD prototype.
 - Create the website with HTML and CSS
 - Later on using JS to get more content to the site.
-- Create a WordPress installation and use itsplugin WooCommerce to get the products.
+- Create a WordPress installation and use its plugin WooCommerce to get the products.
 
 ## Built With
 
