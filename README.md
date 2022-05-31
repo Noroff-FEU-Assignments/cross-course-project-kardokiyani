@@ -14,7 +14,7 @@ This project is about a site which is called Rainy Days, on this site the user c
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+This is the teck stack that I have ued to make this site:
 
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com)
@@ -53,7 +53,7 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+This is my social links if you want or need to contact me:
 
 [My Twitter page](www.twitter.com)
 
