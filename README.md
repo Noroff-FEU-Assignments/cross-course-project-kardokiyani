@@ -55,9 +55,9 @@ Here you can detail any information you want to provide regarding contributing t
 
 This is my social links if you want or need to contact me:
 
-[My Twitter page](www.twitter.com)
+[My Instagram page](www.instagram.com)
 
-[My LinkedIn page](www.linkedin.com)
+[My Facebook page](www.facebook.com)
 
 ## License
 
@@ -65,4 +65,4 @@ You can link to your license file here if you're using one, or mention what lice
 
 ## Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+I would like to acknowledge all the teachers at my school and my fellow students Noroff in our class group at Discord who have always helped me when I asked for help.
