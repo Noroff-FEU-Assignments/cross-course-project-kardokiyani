@@ -19,15 +19,15 @@ This project is about a site which is called Rainy Days, the point of it was to 
 
 This is the teck stack that I have ued to make this site:
 
-- [Fontawesome](https://fontawesome.com/)
-- [Hotjar](https://www.hotjar.com/)
-- [Netlify](https://www.netlify.com/)
 - [Html]()
 - [CSS]()
 - [JS]()
 - [WordPress Rest API](https://wordpress.com/)
 - [WooCommerce](https://woocommerce.com/)
-- 
+- [Fontawesome](https://fontawesome.com/)
+- [Hotjar](https://www.hotjar.com/)
+- [Netlify](https://www.netlify.com/)
+
 ## Designed with
 
 - [Adobe XD](https://www.adobe.com/no/products/xd.html)
