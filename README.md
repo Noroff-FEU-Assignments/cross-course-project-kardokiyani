@@ -6,13 +6,11 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+This project is about a site which is called Rainy Days, on this site the user can purchase Rainy days jackets.
 
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+- The site have a page of jackets for men.
+- The site have also a jackets page for women.
+- The site have also a check in and check out pages.
 
 ## Built With
 
