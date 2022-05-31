@@ -18,12 +18,13 @@ This is the teck stack that I have ued to make this site:
 
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com)
+- [Fontawesome](https://fontawesome.com/)
 
 ## Getting Started
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+This is how you can get the project started, first clone the repo, and then install dependencies.
 
 1. Clone the repo:
 
@@ -39,7 +40,7 @@ npm install
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+This section shows you how the commands you`d need to run to start the project, basically how to run the app:
 
 To run the app, run the following commands:
 
@@ -55,9 +56,9 @@ Here you can detail any information you want to provide regarding contributing t
 
 This is my social links if you want or need to contact me:
 
-[My Instagram page](www.instagram.com)
+[My Instagram page](https://www.instagram.com/kardojr929/)
 
-[My Facebook page](www.facebook.com)
+[My Facebook page](https://www.facebook.com/kardo.kiyani.1998/)
 
 ## License
 
