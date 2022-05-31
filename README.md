@@ -19,6 +19,8 @@ This is the teck stack that I have ued to make this site:
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com)
 - [Fontawesome](https://fontawesome.com/)
+- [Hotjar](https://www.hotjar.com/)
+- [Netlify](https://www.netlify.com/)
 
 ## Getting Started
 
