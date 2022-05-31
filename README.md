@@ -3,25 +3,31 @@
 ![homepage-picture-crosss-course-project](homepage-picture-cross-course-project.PNG)
 
 A simple overview of the use/purpose of the project.
+This is a project made for a online outdoor jacket sales company called RainyDays, and we have used this project many times throughout our first year of study. 
 
 ## Description
 
-This project is about a site which is called Rainy Days, on this site the user can purchase Rainy days jackets.
+This project is about a site which is called Rainy Days, the point of it was to make this site using HTML and CSS, and later w also used JS to get the content to the site using WordPress REST API and the plugin called WooCommerce.
 
-- The site have a page of jackets for men.
-- The site have also a jackets page for women.
-- The site have also a check in and check out pages.
+- Design the website in Adobe XD.
+- Adobe XD prototype.
+- Create the website with HTML and CSS
+- Later on using JS to get more content to the site.
+- Create a WordPress installation and use itsplugin WooCommerce to get the products.
 
 ## Built With
 
 This is the teck stack that I have ued to make this site:
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
 - [Fontawesome](https://fontawesome.com/)
 - [Hotjar](https://www.hotjar.com/)
 - [Netlify](https://www.netlify.com/)
-
+- [Html]()
+- [CSS]()
+- [JS]()
+- [WordPress Rest API](https://wordpress.com/)
+- [WooCommerce](https://woocommerce.com/)
+- 
 ## Designed with
 
 - [Adobe XD](https://www.adobe.com/no/products/xd.html)
