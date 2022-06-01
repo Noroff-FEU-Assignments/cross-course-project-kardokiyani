@@ -7,7 +7,9 @@ This is a project made for a online outdoor jacket sales company called RainyDay
 
 ## Description
 
-This project is about a site which is called Rainy Days, the point of it was to make this site using HTML and CSS, and later w also used JS to get the content to the site using WordPress REST API and the plugin called WooCommerce.
+This project is about a site which is called Rainy Days, the point of it was to make this site using HTML and CSS, and later we also used JS to get the content to the site using WordPress REST API and the plugin called WooCommerce.
+
+How I made the site:
 
 - Design the website in Adobe XD.
 - Adobe XD prototype.
