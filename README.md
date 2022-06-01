@@ -34,10 +34,6 @@ This is the teck stack that I have used to make this site:
 
 - [Adobe XD](https://www.adobe.com/no/products/xd.html)
 
-## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
-
 ## Contact
 
 This is my social links if you want or need to contact me:
